@@ -1,0 +1,15 @@
+
+{
+    "diff": true,
+    "extension": ["ts"],
+    "require": "ts-node/register",
+    "package": "../package.json",
+    "reporter": "spec",
+    "recursive": true,
+    "slow": 2000,
+    "timeout": 20000,
+    "spec": ["./tests/*.ts"],
+    "watch-ignore": ["lib/vendor"],
+    "ui": "bdd"
+}
+
